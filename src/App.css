@@ -1,0 +1,16 @@
+.link {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.link:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.link.active {
+  color: white;
+  background-color: #4caf50;
+}

@@ -1,0 +1,35 @@
+
+.library {
+  display: inline;
+  align-content: center;
+}
+
+.album-cover{
+  margin-top: 50px 50px 50px 50px;
+  height: 400px;
+}
+
+.album-cover:hover{
+  box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.album-link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 60px 64px 45px 600px;
+
+}
+
+.album-info:hover {
+  font-weight: bold;
+}
+
+#album-cover {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#album-cover:hover {
+  text-decoration: underline;
+}
